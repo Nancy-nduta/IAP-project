@@ -43,3 +43,4 @@
   </div>
   <button type="submit" class="btn btn-primary">Sign up</button>
 </form>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/cosmo/bootstrap.min.css">
