@@ -23,3 +23,10 @@
    <label for="password">Password:</label>
     <input type="password" class="form-control" id="password" name="password" required>
   </div>
+  <div class="form-group">
+   <label for="genderId">Gender:</label>
+   <select class="form-control" id="genderId" name="genderId" required>
+      <option value="0">Male</option>
+     <option value="1">Female</option>
+    </select>
+  </div>
