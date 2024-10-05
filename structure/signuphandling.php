@@ -24,3 +24,10 @@ $stmt->bind_param("ssssiii", $fullname, $email, $username, $password, $genderId,
 
 // Execute the query
 $stmt->execute();
+
+// Check if the query was successful
+if ($stmt->affected_rows == 1) {
+    echo "User  created successfully!";
+} else {
+    echo "Error creating user: " . $stmt->error;
+}
