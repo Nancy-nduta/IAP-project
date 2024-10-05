@@ -21,3 +21,6 @@ $stmt = $conn->prepare($query);
 
 // Bind the parameters
 $stmt->bind_param("ssssiii", $fullname, $email, $username, $password, $genderId, $roleId, $phone_number);
+
+// Execute the query
+$stmt->execute();
