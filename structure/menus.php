@@ -16,7 +16,7 @@
         public function main_right_side_menu(){
 ?>
             <div class="topnav-right">
-                <a href="http://localhost/api_e/structure/signup.php">Sign Up</a>
+                <a href="http://localhost/api_e/structure/signupg.php">Sign Up</a>
                 <a href="">Sign In</a>
             </div>
 <?php
