@@ -31,3 +31,7 @@ if ($stmt->affected_rows == 1) {
 } else {
     echo "Error creating user: " . $stmt->error;
 }
+// Close the statement and connection
+$stmt->close();
+$conn->close();
+?>
